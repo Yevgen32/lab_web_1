@@ -1,15 +1,38 @@
-.parent {
-  width: 440px;
-  min-height: 20px;
-  background: #FF6600;
+body{
+	background: white;
 }
-.rows {
-  width: 100px;
-  height: 100px;
-  background: #00F1FF;
-  margin: 5px;
-  float: left;
+.fullwrap{
+	position: relative;
+	border: 5px solid;	
+	margin: 0px auto;
+	min-width: 300px;
+	min-height: 100px
 }
-.position{
+.header{
+	background: #838283;
+	height: 100px;
+}
+.wrap{
+	border: 2px solid;	
+	height: 750px;
+
+}
+.sidebar{
+	background: #333333;
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+.main{
+	background: #a2a2a2;
+	width: 55%;
+	height: 100%;
+	float: left;
+}
+.clear{
 	clear: both;
+}
+.footer{
+	background: #838283;
+	height: 160px;
 }
