@@ -36,19 +36,18 @@ body {
     margin-right: 5%;
 }
 .galary{
-	width: 94%;
+	width: 96%;
 	max-width: 1200px;
 	margin: 0 auto; 
 }
 .image1{
-	width: 48%;
+	width: 46%;
     display: inline-block;
-    margin: 10px;
+    margin-right: 2%; 
 }
 .image2{
-	width: 31%;
+	width: 32%;
     display: inline-block;
-    margin: 10px;
 }
 .text{
 	margin: 15px;
@@ -65,8 +64,8 @@ body {
 button {
   border-radius: 5px;
   background-color: #d65c4b;
-  width: 95%;
-  height: 30%;
+  width: 96%;
+  height: 35%;
   color: white;
 }
 
