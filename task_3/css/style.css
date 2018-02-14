@@ -1,8 +1,7 @@
 .parent {
-  width: 441px;
-  min-height: 332px;
+  width: 440px;
+  min-height: 20px;
   background: #FF6600;
-  
 }
 .rows {
   width: 100px;
@@ -10,4 +9,7 @@
   background: #00F1FF;
   margin: 5px;
   float: left;
+}
+.position{
+	clear: both;
 }
