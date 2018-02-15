@@ -50,22 +50,38 @@ body {
     display: inline-block;
 }
 .text{
-	margin: 15px;
+	margin: 5%;
 }
 .center{
 	text-align: center;
 }
 
 .footer{
-	width: 95%;
-    margin-right: 5%;
+	width: 100%;
+	background-color:#39849b;
+	max-width: 1200px;
+	
 }
 
 button {
-  border-radius: 5px;
-  background-color: #d65c4b;
-  width: 96%;
-  height: 35%;
-  color: white;
+	border-radius: 5px;
+	background-color: #d65c4b;
+	width: 96%;
+	height: 35%;
+	color: white;
 }
-
+.text_footer{
+	color: white;
+}
+.items{
+	width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.item:after{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
