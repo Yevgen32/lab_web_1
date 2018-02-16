@@ -10,6 +10,7 @@ body {
     line-height: 135%;
     font-family: 'Cuprum', sans-serif;
     word-break: normal;
+    background-color: #d1d1d1;
 }
 
 .container{
@@ -19,6 +20,7 @@ body {
  	max-width:1200px;
 	margin: 0 auto;
  	height: auto !important;
+ 	background-color: white; 
 }
 
 .header {
@@ -36,21 +38,22 @@ body {
     margin-right: 5%;
 }
 .galary{
-	width: 96%;
+	
+	width: 95%;
 	max-width: 1200px;
 	margin: 0 auto; 
 }
 .image1{
+	margin-right: 2%;  
 	width: 46%;
     display: inline-block;
-    margin-right: 2%; 
+    
+    padding-top: 2%; 
 }
-.image2{
-	width: 32%;
-    display: inline-block;
-}
+
 .text{
-	margin: 5%;
+	padding-left: 4%;
+	padding-top: 2%;
 }
 .center{
 	text-align: center;
@@ -61,6 +64,8 @@ body {
 	background-color:#39849b;
 	max-width: 1200px;
 	height: 200px;
+	padding-top: 2%;
+	margin-top: 1%; 
 	
 }
 
@@ -89,4 +94,7 @@ button {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+.main ul{
+	padding-left:3%;
 }
